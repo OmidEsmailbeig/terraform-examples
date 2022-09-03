@@ -16,7 +16,7 @@ variable "nginx_containers" {
 }
 
 data "docker_image" "nginx" {
-  name = "nginx:latest"
+  name = "nginx:1"
 }
 
 resource "docker_container" "nginx" {
